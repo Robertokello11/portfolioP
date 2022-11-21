@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+/* home and navbar syling section */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    margin: 20px  20px 20px 20px;
+}
+.logo{
+    font-size: 2.2rem;
+    color: rgb(11,220,11);
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-weight:bolder;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 5px 10px 5px 10px;
+}
+ul>li>a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(11,220,11);
+    box-shadow: 1px 1px 1px 1px greenyellow;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+hr{
+    opacity: 0.1;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 40px 20px 40px 20px;
+}
+.title{
+    padding: 2px;
+    margin: 10px 0 10px 0;
+    font-weight: 800;
+    font-size: 3em;
+}
+.sub-title{
+    padding: 3px;
+    margin: 10px 0px 10px 0;
+    font-weight:400;
+    opacity: 0.7;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+}
+.btn.main{
+    margin: 10px 0px 10px 0px;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media screen and (max-width:650px){
+   #r img{
+    display:none;
+   } 
+   .header{
+    width: fit-content;
+    padding-right: 1rem;
+    flex-wrap: wrap;
+   }
+   li {
+    margin: 0 !important;
+    padding: 0 !important;
+   }
+   ul{
+    margin: 0 !important;
+    padding: 0 !important;
+   }
+   .a {
+    display: none;
+   }
+   .logo{
+    font-size: 1rem;
+    margin-left: 3rem;
+    padding: 1rem;
+   }
+   .title{
+   font-size: 2em;
+   }
+   .container{
+    height: 100vh;
+   }
+}
+
+/* End of home and navbar syling section */
